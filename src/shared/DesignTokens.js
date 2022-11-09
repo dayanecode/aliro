@@ -50,6 +50,9 @@ export const Spaces = {
 };
 export const BorderRadiuses = {
 	ONE: '4px',
+	TWO: '10px',
+	THREE: '15px',
+	FOUR: '20px',
 };
 export const Shadows = {
 	ONE: '0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24)',
