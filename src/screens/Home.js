@@ -56,7 +56,7 @@ export function Home() {
             <Section>
 
                 <Background_img>
-                    <Button_Destinos>Confira destinos inclusivos</Button_Destinos>
+                    <Button_Destinos  to={`/Explorer`}>Confira destinos inclusivos</Button_Destinos>
                 </Background_img>
 
                 <Title_Section>

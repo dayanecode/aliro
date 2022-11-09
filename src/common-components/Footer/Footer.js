@@ -12,7 +12,6 @@ const Wrapper = styled.footer`
     background-color: ${Colors.LIGHT_BLUE};
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     align-items: center;
 `;
 

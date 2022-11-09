@@ -4,6 +4,6 @@ import { Colors, FontFamilies, FontSizes, FontWeights } from "../../shared/Desig
 export const Description_p = styled.span`
     font-family: ${FontFamilies.PRIMARY};
     font-weight: ${FontWeights.REGULAR};
-    font-size: ${FontSizes.THREE};
+    font-size: ${FontSizes.TWO};
     color: ${Colors.NEUTRAL_BLACK};
 `;
