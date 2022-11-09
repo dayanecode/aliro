@@ -31,6 +31,7 @@ export const FontWeights = {
 	THIN: 300,
 	REGULAR: 400,
 	BOLD: 500,
+	ULTRA_BOLD: 600,
 };
 export const Spaces = {
 	NONE: '0',
