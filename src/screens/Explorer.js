@@ -189,7 +189,7 @@ export function Explorer() {
                         <Description_h2 style={{ 'marginBottom': '10px' }}>Legenda</Description_h2>
                         <Detail_Legend_Card>
                             <Legend_Avaliation>
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
                             </Legend_Avaliation>
 
                             <Description_Legend>
@@ -210,11 +210,11 @@ export function Explorer() {
                             <Avaliation>
                                 <Description_p>Avaliação</Description_p>
                                 <Container_Acessibility_Icon>
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
                                 </Container_Acessibility_Icon>
                             </Avaliation>
 
@@ -240,9 +240,9 @@ export function Explorer() {
                             <Avaliation>
                                 <Description_p>Avaliação</Description_p>
                                 <Container_Acessibility_Icon>
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
                                 </Container_Acessibility_Icon>
                             </Avaliation>
 
@@ -268,10 +268,10 @@ export function Explorer() {
                             <Avaliation>
                                 <Description_p>Avaliação</Description_p>
                                 <Container_Acessibility_Icon>
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
-                                    <Acessibility_Icon src={require('./../assets/icons/accessibility-icon.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
+                                    <Acessibility_Icon src={require('./../assets/icons/Accessibility.svg')} />
                                 </Container_Acessibility_Icon>
                             </Avaliation>
 
