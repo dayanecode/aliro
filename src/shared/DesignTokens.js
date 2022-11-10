@@ -6,6 +6,7 @@ export const Colors = {
 	NEUTRAL_BLUE: '#2987D9',
 	BLUE_GRAY: '#334D5C',
 	NETRAL_DARK_BLUE: '#1F67A6',
+	GRAY: '#F5F5F5',
 };
 export const FontFamilies = {
 	PRIMARY: '"Roboto", "Helvetica", "Arial", sans-serif',
