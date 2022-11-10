@@ -3,12 +3,10 @@ import { Header } from "../common-components/Header/Header";
 import { Footer } from "../common-components/Footer/Footer";
 import { Description_h2 } from "../common-components/Descriptions/Descriptions_h2";
 import { Description_p } from "../common-components/Descriptions/Descriptions_p";
-import { Destiny_Images } from "../common-components/Destiny_Images/Destiny_Images";
 
 import { Link } from "react-router-dom";
 import { BorderRadiuses, Colors, FontSizes } from "../shared/DesignTokens";
 
-import Destiny_1 from "./../assets/images/example-local-1.png";
 
 const Container = styled.div`
     margin-inline: 10vw;
@@ -45,50 +43,25 @@ const Button_Otimizar =  styled(Link)`
     border-radius: ${BorderRadiuses.TWO}
 `;
 
-export function Explorer() {
+export function Local() {
     return (
         <div>
             < Header />
+
             
-            <Container>
-                <Section>
+            <Section>
                     <div>
-                        <Description_p>Para uma melhor experiência ajuste as recomendações às suas necessidade:</Description_p>
-                        
-                        <Div_Checkbox>
-                            <input type="checkbox"/>
-                            <Description_p>Visual</Description_p>
-                        </Div_Checkbox>
-
-                        <Div_Checkbox>
-                            <input type="checkbox"/>
-                            <Description_p>Cadeirante</Description_p>
-                        </Div_Checkbox>
-
-                        <Div_Checkbox>
-                            <input type="checkbox"/>
-                            <Description_p>Audição reduzida</Description_p>
-                        </Div_Checkbox>
-
-                        <Div_Checkbox>
-                            <input type="checkbox"/>
-                            <Description_p>Outros</Description_p>
-                        </Div_Checkbox>
+                        <Description_h2>Nome do Local</Description_h2>                        
                     </div>
+            </Section>
 
-                    <Button_Otimizar to={`/Details`}>
+            <Button_Otimizar>
                         Otimizar resultados
-                    </Button_Otimizar>
-                </Section>
+            </Button_Otimizar>
 
-                <Section>
-                    <div>
-                        <Description_h2>Nome do Local</Description_h2>
-                        <Destiny_Images src={Destiny_1} />
-                    </div>
-                </Section>
 
-            </Container>
+
+          
             < Footer />
         </div>
     )
