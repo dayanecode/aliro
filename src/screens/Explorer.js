@@ -180,8 +180,7 @@ export function Explorer() {
                         </Div_Checkbox>
                     </div>
 
-                    <Button_Otimizar>
-                        Otimizar resultados
+                    <Button_Otimizar to = {`/Local`}> Otimizar resultados
                     </Button_Otimizar>
                 </Section>
 
