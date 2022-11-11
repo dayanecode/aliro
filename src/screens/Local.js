@@ -55,7 +55,7 @@ export function Local() {
                         <Description_h2>Nome do Local</Description_h2> 
                         <Card>
                             <LocalImage 
-                            src = {require('./../assets/images/example-local-800w.png')} 
+                            src = {require('./../assets/images/example-local-3.png')} 
                             alt='Restaurante 3'
                             />
                         </Card>                       
@@ -64,13 +64,11 @@ export function Local() {
 
             <SectionBody>
                 
-                <Description_p>                   
-             
+                <Description_p>                  
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.Maecenas eu nisl sit amet arcu fermentum accumsan ac nec leo.Vestibulum vehicula massa nec elit ornare, in porttitor erat vehicula.Aenean tristique placerat tortor, eget ultricies neque finibus eget.Mauris sed interdum nisi.Phasellus non urna lobortis, lobortis nisl vitae, rhoncus lacus.Suspendisse quis dignissim risus, id pulvinar tortor.Nunc non accumsan nulla, nec dapibus sem.Phasellus ultricies tincidunt arcu, sit amet aliquam libero condimentum vitae.Duis dapibus, erat vitae tempor posuere, magna odio auctor dolor, vitae efficitur dolor tellus non erat.Praesent consequat vel ante et semper.
                     <br/>
                     <br/>
                     Duis et neque nisl.Praesent eget mollis turpis.Morbi quis tristique ante.Nam ac sapien elit.Sed hendrerit massa semper vehicula hendrerit.In hac habitasse platea dictumst.Quisque id lectus magna.Fusce convallis elit a ultricies pretium.Nunc eleifend eu libero non iaculis.
-              
                 </Description_p>             
                 
             </SectionBody>
